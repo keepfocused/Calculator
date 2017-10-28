@@ -21,7 +21,7 @@
 		84015FE71F9B831D00054414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84015FE91F9B831D00054414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84015FEC1F9B831D00054414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84015FEE1F9B831D00054414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84015FEE1F9B831D00054414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +54,22 @@
 		84015FE11F9B831D00054414 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				84015FE21F9B831D00054414 /* AppDelegate.swift */,
 				84015FE41F9B831D00054414 /* ViewController.swift */,
 				84015FE61F9B831D00054414 /* Main.storyboard */,
+				84015FF41F9B84FD00054414 /* Supporting files */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		84015FF41F9B84FD00054414 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				84015FE21F9B831D00054414 /* AppDelegate.swift */,
 				84015FE91F9B831D00054414 /* Assets.xcassets */,
 				84015FEB1F9B831D00054414 /* LaunchScreen.storyboard */,
 				84015FEE1F9B831D00054414 /* Info.plist */,
 			);
-			path = Calculator;
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
