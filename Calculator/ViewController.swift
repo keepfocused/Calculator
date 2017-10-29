@@ -13,13 +13,12 @@ class ViewController: UIViewController {
     
     @IBAction func touchDigit(_ sender: UIButton) {
 
-        let digit = sender.currentTitle
+        let digit = sender.currentTitle!
         print("\(digit) was touched")
         
-        
-
-    }
+        self.displayLabel?.text = (self.displayLabel?.text)! + digit
     
-
+    }
+    @IBOutlet weak var displayLabel: UILabel?
 }
 
